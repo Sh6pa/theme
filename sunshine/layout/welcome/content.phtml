@@ -1,0 +1,771 @@
+<?php echo Wo_LoadPage('welcome/welcome-header-register');?>
+<div class="wrapper">
+<div class="container">
+   <div class="row login">
+      <div class="col-md-6">
+         <h1 class="title" style="color: #f32655;font-size: 70px; font-weight: 700;text-shadow: 2px 2px 4px #000000;">LE CONCEPT</h1>
+         <img src="<?php echo $wo['config']['theme_url'];?>/img/iyoo-new-logo.png" style="height: 100%;" alt="Iyoo new logo">
+         <br>
+         <br>
+         <p style="text-align: center;">
+      IYOO est un réseau social dédié au social shopping et doté d’une véritable marketplace sur laquelle les IYOOnautes pourront être accompagnés dans leur décision d’achat par leurs amis proches. 
+      <br>Il apporte, d’une part, une nouvelle solution retail tech, c’est-à-dire une digitalisation de la fonction commerciale ayant comme particularité la simplification de l’expérience client et responsabilise l’acheteur dans sa manière de consommer. Le consommateur peut désormais s’appuyer instantanément sur les avis de ses proches sans perdre de temps à trier les avis sur les sites marchands avant un achat. Plus besoin de copier des liens de produits à partager sur les différents réseaux sociaux à la recherche des recommandations ou de passer d’un site marchand à un autre dans le but de comparer différents produits.
+      <br>D’autre part, les vendeurs vont augmenter leurs ventes grâce à la solution d’achat groupé et au trafic de référence résultant du partage des produits entre proches. Ils pourront aussi constater une baisse considérable de leur taux d’abandon de paniers et les retours clients, puisque les clients sont confortés dans leur décision d’achat par le conseil de leurs proches. 
+
+         </p>
+         
+         <!--a href="javascript:void(0)" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModalConcept" style="border-radius: 0; background: linear-gradient(
+            120deg
+             , rgba(236,17,106,0.9700922605370274) 20%, rgba(252,91,18,0.9700922605370274) 60%) !important;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">Read More</a-->
+         <!-- <a href="javascript:void(0)" class="btn btn-danger btn-lg" style="border-radius: 0; background: linear-gradient(
+            120deg
+            , rgba(236,17,106,0.9700922605370274) 20%, rgba(252,91,18,0.9700922605370274) 60%) !important;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);" data-toggle="modal" data-target="#myModalContact">Contact Us</a> -->
+      </div>
+      <div class="col-md-6">
+         <div class="sun_welcome_img">
+            <img src="<?php echo $wo['config']['theme_url'];?>/img/image.PNG" alt="<?php echo $wo['lang']['welcome_']?>" />
+         </div>
+      </div>
+   </div>
+</div>
+<div class="row">
+   <style>
+      .aboutus-section {
+      padding: 90px 0;
+      }
+      .aboutus-title {
+      font-size: 30px;
+      letter-spacing: 0;
+      line-height: 32px;
+      margin: 0 0 39px;
+      padding: 0 0 11px;
+      position: relative;
+      text-transform: uppercase;
+      color: #000;
+      }
+      .aboutus-title::after {
+      background: #f32655 none repeat scroll 0 0;
+      bottom: 0;
+      content: "";
+      height: 2px;
+      left: 0;
+      position: absolute;
+      width: 54px;
+      }
+      .aboutus-text {
+      color: #606060;
+      font-size: 13px;
+      line-height: 22px;
+      margin: 0 0 35px;
+      }
+      }
+   </style>
+   <div class="aboutus-section">
+      <div class="container">
+         <div class="row login">
+            <div class="col-md-7 col-sm-6 col-xs-12">
+               <div class="aboutus">
+                  <h2 class="aboutus-title">À propos du Concept</h2>
+                  <p style="text-align: center;">
+                  Le social shopping est défini comme le processus de vente de produits et / ou de services en tirant parti de l'interaction des individus. C'est une nouvelle pratique d'achat qui se développe rapidement ces dernières années.
+                  <br>
+                  IYOO s'inscrit dans ce domaine du social shopping en répondant aux besoins de conseils et de recommandations des consommateurs. L'idée du projet repose sur la problématique de la fiabilité des avis actuellement disponibles sur les sites e-commerce et les réseaux sociaux. En effet, de nombreux avis publiés sur les plateformes d'achat en ligne sont soit faux puisqu'ils sont publiés par les marques elles-mêmes ou par des consommateurs qui ont reçu une compensation pour avoir publié des avis positifs non objectifs, soit tronqués car publiés par la concurrence dans le seul but de discréditer l'offre.
+                  <br>
+                  Pour le consommateur, ce manque de fiabilité dans les avis consommateurs peut être très difficile. Pour tenter d'y remédier, il recourt souvent aux conseils de ses proches mais n'a d'autre choix que de copier le lien du produit et de le partager via les réseaux sociaux, par mail ou par sms. C'est une perte de temps et un réel obstacle à l'achat.
+                  </p>
+                  <!--p class="aboutus-text">
+                     IYOO means "Quickly, quickly or even without waiting". It is taken from the "Sango" language spoken in the Central African Republic.
+                     It translates our concept which wants to meet the many requirements of a current “consumer”, in search of time saving and authentic information.
+                     IYOO was born from the following observations:
+                  <ul style="margin-top: -20px;">
+                     <li>Consumers spend a lot of time looking for good, reliable and honest advice on products.</li>
+                     <li>Consumers spend a lot of time looking for good, reliable and honest advice on products.</li>
+                     <li>Customer reviews on sites have bad reputations and do not give consumers confidence.</li>
+                     <li>Almost 9 out of 10 consumers prefer to listen to the advice of a loved one rather than any other form of advice before making an act of purchase.</li>
+                     <li>The proliferation of shopping features on social networks is creating confusion among consumers.</li>
+                     <li>The abundance of information discourages consumers from taking action.</li>
+                     <li>The decision-making difficulties of buyers cause sales to be lost to merchant sites</li>
+                  </ul>
+                  </p>
+                  <p class="aboutus-text">
+                     And when they want to seek advice from relatives on an online product, they have no choice but to copy the product link and send it by text or on social networks. It is tedious and it takes time.
+                     Our IYOO solution offers E-merchants, via a simple and practical social shopping solution, the possibility of responding effectively to customer needs and expectations by offering them an innovative and above all trusting user experience.
+                  </p-->
+                  <a href="javascript:void(0)" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModalConcept" style="border-radius: 0; background: linear-gradient(
+            120deg
+             , rgba(236,17,106,0.9700922605370274) 20%, rgba(252,91,18,0.9700922605370274) 60%) !important;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">Lire plus</a>
+               </div>
+            </div>
+            <div class="col-md-5 col-sm-6 col-xs-12">
+               <div class="feature">
+                  <img src="<?php echo $wo['config']['theme_url'];?>/img/image-1.jpeg" alt="<?php echo $wo['lang']['welcome_']?>" class="img-responsive" />
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<style>
+   .product_zone1 {
+   background-color: #f8e8f3;
+   padding: 58px 0 70px 0;
+   position: relative;
+   }
+   .prod_add_box {
+   border-radius: 25px;
+   overflow: hidden;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 310px;
+   box-shadow: 0 0 6px 0 rgb(0 0 0 / 30%);
+   }
+   .prod_add_box .overlay_wrapper {
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   background: rgb(229,229,229);
+   background: -moz-linear-gradient(top, rgba(229,229,229,0) 0%, rgba(249,2,192,0.5) 99%);
+   background: -webkit-linear-gradient(top, rgba(229,229,229,0) 0%,rgba(249,2,192,0.5) 99%);
+   background: linear-gradient(to bottom, rgba(229,229,229,0) 0%,rgba(249,2,192,0.5) 99%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#f902c0',GradientType=0 );
+   padding: 25px 15px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-end;
+   }
+   .offer_less_box {
+   border-radius: 8px;
+   overflow: hidden;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 205px;
+   margin: 0 10px;
+   box-shadow: 0 0 3px 0 rgb(0 0 0 / 30%);
+   }
+   .offer_less_box .overlay_wrapper1 {
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   background: rgb(229,229,229);
+   background: -moz-linear-gradient(top, rgba(229,229,229,0) 0%, rgba(249,2,192,0.5) 99%);
+   background: -webkit-linear-gradient(top, rgba(229,229,229,0) 0%,rgba(249,2,192,0.5) 99%);
+   background: linear-gradient(to bottom, rgba(229,229,229,0) 0%,rgba(0,0,0,0.7) 99%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#f902c0',GradientType=0 );
+   padding: 25px 15px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-end;
+   }
+</style>
+<section class="product_zone1">
+   <div class="container">
+      <div class="product_zone_inner_top">
+         <div class="product_add">
+            <div class="row">
+               <h1 class="text-center">NOS CATÉGORIES DE PRODUITS</h1>
+               <br>
+               <div class="col-lg-4">
+                  <div class="prod_add_box aos-init aos-animate" data-aos="zoom-in" data-aos-duration="1000">
+                     <div class="overlay_wrapper">
+                        <div class="product_name">
+                           <font style="vertical-align: inherit; font-size: 22px; color: #fff; font-weight: 700">
+                           <font style="vertical-align: inherit;">
+                           HOMMES                        
+                           </font>
+                           </font>
+                        </div>
+                     </div>
+                     <img src="<?php echo $wo['config']['theme_url'];?>/img/add1.jpg" alt="<?php echo $wo['lang']['welcome_']?>" class="img-responsive" style="width:100%; height: 100%; object-fit:cover;">
+                  </div>
+               </div>
+               <div class="col-lg-4">
+                  <div class="prod_add_box aos-init aos-animate" data-aos="zoom-in" data-aos-duration="2000">
+                     <div class="overlay_wrapper">
+                        <div class="product_name">
+                           <font style="vertical-align: inherit;font-size: 22px; color: #fff; font-weight: 700">
+                           <font style="vertical-align: inherit;">
+                           FEMMES                          
+                           </font>
+                           </font>
+                        </div>
+                     </div>
+                     <img src="<?php echo $wo['config']['theme_url'];?>/img/add2.jpg" alt="<?php echo $wo['lang']['welcome_']?>" class="img-responsive"  style="width:100%; height: 100%; object-fit:cover;">
+                  </div>
+               </div>
+               <div class="col-lg-4">
+                  <div class="prod_add_box aos-init aos-animate" data-aos="zoom-in" data-aos-duration="3000">
+                     <div class="overlay_wrapper">
+                        <div class="product_name">
+                           <font style="vertical-align: inherit; font-size: 22px; color: #fff; font-weight: 700">
+                           <font style="vertical-align: inherit;">
+                           ENFANTS                          
+                           </font>
+                           </font>
+                        </div>
+                     </div>
+                     <img src="<?php echo $wo['config']['theme_url'];?>/img/add3.jpg" alt="<?php echo $wo['lang']['welcome_']?>" class="img-responsive"  style="width:100%; height: 100%; object-fit:cover;">
+                  </div>
+               </div>
+               <div class="clearefix"> </div>
+               <div class="col-md-12" style="margin-top: 30px;margin-left: 5px;">
+                  <div class="col-lg-3">
+                     <div class="offer_less_box aos-init aos-animate" data-aos="zoom-in" data-aos-duration="3000">
+                        <div class="overlay_wrapper1">
+                           <div class="product_name">
+                              <font style="vertical-align: inherit;font-size: 22px; color: #fff; font-weight: 700">
+                              <font style="vertical-align: inherit;">
+                              MULTIMEDIA                          
+                              </font>
+                              </font>
+                           </div>
+                        </div>
+                        <img src="<?php echo $wo['config']['theme_url'];?>/img/multimedia.jpg" alt="<?php echo $wo['lang']['welcome_']?>" class="img-responsive"  style="width:100%; height: 100%; object-fit:cover;">
+                     </div>
+                  </div>
+                  <div class="col-lg-3">
+                     <div class="offer_less_box aos-init aos-animate" data-aos="zoom-in" data-aos-duration="3000">
+                        <div class="overlay_wrapper1">
+                           <div class="product_name">
+                              <font style="vertical-align: inherit;font-size: 22px; color: #fff; font-weight: 700">
+                              <font style="vertical-align: inherit;">
+                              SANTÉ ET BIEN-ÊTRE                         
+                              </font>
+                              </font>
+                           </div>
+                        </div>
+                        <img src="<?php echo $wo['config']['theme_url'];?>/img/beauty.jpg" alt="<?php echo $wo['lang']['welcome_']?>" class="img-responsive"  style="width:100%; height: 100%; object-fit:cover;">
+                     </div>
+                  </div>
+                  <div class="col-lg-3">
+                     <div class="offer_less_box aos-init aos-animate" data-aos="zoom-in" data-aos-duration="3000">
+                        <div class="overlay_wrapper1">
+                           <div class="product_name">
+                              <font style="vertical-align: inherit;font-size: 22px; color: #fff; font-weight: 700">
+                              <font style="vertical-align: inherit;">
+                              DÉCORATION                         
+                              </font>
+                              </font>
+                           </div>
+                        </div>
+                        <img src="<?php echo $wo['config']['theme_url'];?>/img/decoration.jpg" alt="<?php echo $wo['lang']['welcome_']?>" class="img-responsive"  style="width:100%; height: 100%; object-fit:cover;">
+                     </div>
+                  </div>
+                  <div class="col-lg-3">
+                     <div class="offer_less_box aos-init aos-animate" data-aos="zoom-in" data-aos-duration="3000">
+                        <div class="overlay_wrapper1">
+                           <div class="product_name">
+                              <font style="vertical-align: inherit;font-size: 22px; color: #fff; font-weight: 700">
+                              <font style="vertical-align: inherit;">
+                              MAISON & CUISINE                     
+                              </font>
+                              </font>
+                           </div>
+                        </div>
+                        <img src="<?php echo $wo['config']['theme_url'];?>/img/em.jpg" alt="<?php echo $wo['lang']['welcome_']?>" class="img-responsive"  style="width:100%; height: 100%; object-fit:cover;">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+</section>
+<div class="row">
+<style>
+.Financial_part{
+background-color: #fff;
+padding: 50px 0px;
+}
+.Financial_img img{
+margin: 40px 0px;
+width:350px;
+}
+.Financial-box{
+border-radius: 5px;
+padding: 9px;
+text-align: center;
+box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+margin-bottom: 30px;
+}
+.Financial-box img{
+background: #ff6600;
+padding: 8px;
+border-radius: 8px;
+margin-bottom: 5px;
+width: 55px;
+}
+.Financial-box h3 {
+margin: 10px 0px;
+font-size: 15px;
+font-weight: 700;
+letter-spacing: 1px;
+color: #f60;
+}
+.Financial-box p {
+margin: 10px 0px 0px;
+font-size: 13px;
+font-weight: 400;
+line-height: 22px;
+}
+</style>
+<div class="Financial_part">
+<div class="container">
+<div class="row login">
+<div class="col-md-4">
+<div class="Financial_img">
+<img src="<?php echo $wo['config']['theme_url'];?>/img/iphone1.png" alt="<?php echo $wo['lang']['welcome_']?>" class="img-responsive" style="width:100%; height:530px; object-fit: contain;">
+</div>
+</div>
+<div class="col-md-8">
+<div class="Financial_sect">
+<div class="row login">
+<div class="col-md-4">
+<div class="Financial-box">
+<i class="fa fa-handshake-o" style="font-size: 50px; color: #f32655"></i>
+<h3>REJOIGNEZ NOUS</h3>
+<p>
+IYOOnautes: Créer votre compte, Déterminez vos intérêts grâce à une liste de catégories de produits disponibles. Construisez votre réseau en invitant vos amis, votre famille et vos connaissances via WhatsApp, Facebook… Et accédez à votre boutique personnalisée regroupant les différents produits de nos vendeurs partenaires.
+</p>
+</div>
+</div>
+<div class="col-md-4">
+<div class="Financial-box">
+<i class="fa fa-users" style="font-size: 50px; color: #f32655"></i>
+<h3>AJOUTEZ VOS AMIS</h3>
+<p>
+Restez connecté avec vos proches, partagez vos achats favoris avec eux, amusez-vous, demandez leur avis lors d'un achat en ligne. Vous passerez un bon moment ensemble!
+</p>
+</div>
+</div>
+<div class="col-md-4">
+<div class="Financial-box">
+<i class="fa fa-cart-arrow-down" style="font-size: 50px; color: #f32655"></i>
+<h3>PROFITEZ DU MOMENT</h3>
+<p>
+Gagnez du temps en faisant du shopping plus sereinement entre amis dans une boutique qui vous est exclusivement dédiée.
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div> 
+<style>
+.download_app_panel_wrapper {
+padding: 95px 0;
+background-color: #f8e8f3;
+}
+.download_header {
+font-size: 34px;
+color: #ee106d;
+text-align: center;
+margin: 0 0 35px 0;
+}
+.download_app_panel_wrapper p {
+margin: 0 auto 35px auto;
+width: 60%;
+text-align: center;
+font-size: 20px;
+}
+.download_button_list {
+display: block;
+}
+.download_button_list ul {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.download_button_list ul li {
+padding: 0 25px;
+margin: 0 0 25px 0;
+}
+.download_button_list ul li a {
+height: 50px;
+width: auto;
+padding: 5px 20px;
+justify-content: center;
+display: flex;
+align-items: center;
+background-color: #fff;
+box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
+font-size: 18px;
+}
+</style>
+<section class="download_app_panel_wrapper">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="download_header">
+<span>Téléchargez</span> Partout            
+</div>
+<p>Disponible sur toutes les principales plates-formes mobiles et de bureau.</p>
+<!--  -->
+<!-- <span>Download</span> Anywhere -->
+<!-- </div> -->
+<!-- <p></p> -->
+<!-- <p>Available for all major mobile and desktop platforms. Quickly visualize optimal ROI rather than empowering methods across your organization.</p> -->
+<div class="download_button_list">
+<ul>
+<li><a class="btn" href="#" role="button"><img src="<?php echo $wo['config']['theme_url'];?>/img/appleicon.png"> &nbsp;&nbsp;<span class=”notranslate” translate="no">App Store</span></a></li>
+<li><a class="btn" href="#" role="button"><img src="<?php echo $wo['config']['theme_url'];?>/img/playicon.png"> &nbsp;&nbsp;<span class=”notranslate” translate="no">Google Play</span></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section>
+<div class="container-fluid" style="background-color: #f6f6f6">
+<div class="row">
+<div class="col-md-12 " align="center" style="margin: 20px;">
+<a href="https://www.facebook.com/IyooApp/?modal=admin_todo_tour" style="padding: 10px; font-size: 20px; color: #ee106d"><i class="fa fa-facebook"></i></a>
+<a href="https://www.youtube.com/channel/UCyAItbhpmxiNcyOAJ-KCZcw" style="padding: 10px; font-size: 20px; color: #ee106d"><i class="fa fa-youtube"></i></a>
+<a href="https://www.instagram.com/iyooapp/?hl=fr" style="padding: 10px; font-size: 20px; color: #ee106d"><i class="fa fa-instagram"></i></a>
+<a href="https://www.linkedin.com/in/iyoo-business-2038071ba/" style="padding: 10px; font-size: 20px; color: #ee106d"><i class="fa fa-linkedin"></i></a>
+<a href="https://twitter.com/IYOO39576667" style="padding: 10px; font-size: 20px; color: #ee106d"><i class="fa fa-twitter"></i></a>
+</div>
+</div>
+</div> 
+</section>
+</div>
+<!-- Modal -->
+<!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog">
+   <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content" style="background-image: url('./themes/sunshine/img/sc.png');    background: linear-gradient(
+         120deg
+         , rgba(236,17,106,0.9700922605370274) 20%, rgba(252,91,18,0.9700922605370274) 60%) !important;">
+         <button type="button" class="close" data-dismiss="modal" style="padding-right: 10px;padding-top: 8px;">&times;</button>
+         <div class="modal-body" style="overflow: hidden;">
+            <div class="row">
+               <div class="col-md-5">
+                  <div class="form-group">
+                     <h2 class="title" style="color: #fff;"> SE CONNECTER AVEC <br><img src="themes/sunshine/img/logo.png" class="img-responsive"></h2>
+                     <hr>
+                     <h4 class="title" style="color: #fff;">
+                        ou Connectez vous avec
+                     </h4>
+                     <div class="form-group">
+                        <a href="javascript:void(0)">
+                        <img src="themes/sunshine/img/facebook.png" class="img-responsive">
+                        </a>
+                     </div>
+                     <div class="form-group">
+                        <a href="javascript:void(0)">
+                        <img src="themes/sunshine/img/google.png" class="img-responsive">
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-7">
+                  <p>&nbsp;</p>
+                  <div class="sun_welcome_heading">
+                     <h1 style="color: #fff;"><?php echo $wo['lang']['welcome_']?> :)</h1>
+                     <p style="color: #fff;"><?php echo $wo['lang']['welcome_share_text']?></p>
+                  </div>
+                  <form id="login" method="post">
+                     <div class="errors"></div>
+                     <div class="loading_cont">
+                        <div class="loading hidden"></div>
+                     </div>
+                     <div class="sun_input_holder">
+                        <div class="sun_input">
+                           <input name="username" id="username" type="text" placeholder="<?php echo $wo['lang']['username']?>" autofocus />
+                           <label for="username"><?php echo $wo['lang']['username']?></label>
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                              <circle cx="12" cy="7" r="4"></circle>
+                           </svg>
+                        </div>
+                        <div class="sun_input">
+                           <input name="password" id="password" type="password" placeholder="<?php echo $wo['lang']['password']?>" />
+                           <label for="password"><?php echo $wo['lang']['password']?></label>
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                              <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                           </svg>
+                        </div>
+                     </div>
+                     <div class="forgot_password">
+                        <a href="<?php echo Wo_SeoLink('index.php?link1=forgot-password');?>" style="color: #fff;"><?php echo $wo['lang']['forget_password']?></a>
+                     </div>
+                     <div class="login_signup_combo">
+                        <div class="login__">
+                           <button type="submit" class="btn btn-main"><?php echo $wo['lang']['login']?></button>
+                        </div>
+                        <div class="signup__">
+                           <?php if ($wo['config']['user_registration'] == 1): ?>
+                           <a class="dec btn btn-default" href="<?php echo Wo_SeoLink('index.php?link1=register');?>"><?php echo $wo['lang']['register']?></a>
+                           <?php endif ?>
+                        </div>
+                     </div>
+                     <?php if(!empty( $_GET['last_url'])){?>
+                     <div class="form-group"><input type="hidden" name="last_url" value="<?php echo urldecode(Wo_Secure($_GET['last_url']));?>"></div>
+                     <?php } ?>
+                  </form>
+                  <?php if ($wo['config']['facebookLogin'] != 0 || $wo['config']['googleLogin'] != 0 || $wo['config']['twitterLogin'] != 0 || $wo['config']['linkedinLogin'] != 0 || $wo['config']['VkontakteLogin'] != 0 || $wo['config']['instagramLogin'] != 0 ) { ?>
+                  <div class="social_btns">
+                     <p><?php echo $wo['lang']['login_with']?> <?php echo $wo['lang']['social_links']?></p>
+                     <?php if($wo['config']['facebookLogin'] != 0): ?>
+                     <a href="<?php echo $wo['facebookLoginUrl']?>" class="btn btn-facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                           <path fill="currentColor" d="M17,2V2H17V6H15C14.31,6 14,6.81 14,7.5V10H14L17,10V14H14V22H10V14H7V10H10V6A4,4 0 0,1 14,2H17Z"></path>
+                        </svg>
+                     </a>
+                     <?php endif; ?>
+                     <?php if($wo['config']['googleLogin'] != 0): ?>
+                     <!-- <a href="<?php echo $wo['googleLoginUrl']?>" class="btn btn-google"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M23,11H21V9H19V11H17V13H19V15H21V13H23M8,11V13.4H12C11.8,14.4 10.8,16.4 8,16.4C5.6,16.4 3.7,14.4 3.7,12C3.7,9.6 5.6,7.6 8,7.6C9.4,7.6 10.3,8.2 10.8,8.7L12.7,6.9C11.5,5.7 9.9,5 8,5C4.1,5 1,8.1 1,12C1,15.9 4.1,19 8,19C12,19 14.7,16.2 14.7,12.2C14.7,11.7 14.7,11.4 14.6,11H8Z"></path></svg></a> -->
+                     <?php endif; ?>
+                     <?php if($wo['config']['twitterLogin'] != 0): ?>
+                     <a href="<?php echo $wo['twitterLoginUrl']?>" class="btn btn-twitter">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                           <path fill="currentColor" d="M22.46,6C21.69,6.35 20.86,6.58 20,6.69C20.88,6.16 21.56,5.32 21.88,4.31C21.05,4.81 20.13,5.16 19.16,5.36C18.37,4.5 17.26,4 16,4C13.65,4 11.73,5.92 11.73,8.29C11.73,8.63 11.77,8.96 11.84,9.27C8.28,9.09 5.11,7.38 3,4.79C2.63,5.42 2.42,6.16 2.42,6.94C2.42,8.43 3.17,9.75 4.33,10.5C3.62,10.5 2.96,10.3 2.38,10C2.38,10 2.38,10 2.38,10.03C2.38,12.11 3.86,13.85 5.82,14.24C5.46,14.34 5.08,14.39 4.69,14.39C4.42,14.39 4.15,14.36 3.89,14.31C4.43,16 6,17.26 7.89,17.29C6.43,18.45 4.58,19.13 2.56,19.13C2.22,19.13 1.88,19.11 1.54,19.07C3.44,20.29 5.7,21 8.12,21C16,21 20.33,14.46 20.33,8.79C20.33,8.6 20.33,8.42 20.32,8.23C21.16,7.63 21.88,6.87 22.46,6Z"></path>
+                        </svg>
+                     </a>
+                     <?php endif; ?>
+                     <?php if($wo['config']['linkedinLogin'] != 0): ?>
+                     <a href="<?php echo $wo['linkedInLoginUrl']?>" class="btn btn-linkedin">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                           <path fill="currentColor" d="M21,21H17V14.25C17,13.19 15.81,12.31 14.75,12.31C13.69,12.31 13,13.19 13,14.25V21H9V9H13V11C13.66,9.93 15.36,9.24 16.5,9.24C19,9.24 21,11.28 21,13.75V21M7,21H3V9H7V21M5,3A2,2 0 0,1 7,5A2,2 0 0,1 5,7A2,2 0 0,1 3,5A2,2 0 0,1 5,3Z"></path>
+                        </svg>
+                     </a>
+                     <?php endif; ?>
+                     <?php if($wo['config']['VkontakteLogin'] != 0): ?>
+                     <a href="<?php echo $wo['VkontakteLoginUrl']?>" class="btn btn-vk">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                           <path fill="currentColor" d="M20.8,7.74C20.93,7.32 20.8,7 20.18,7H18.16C17.64,7 17.41,7.27 17.28,7.57C17.28,7.57 16.25,10.08 14.79,11.72C14.31,12.19 14.1,12.34 13.84,12.34C13.71,12.34 13.5,12.19 13.5,11.76V7.74C13.5,7.23 13.38,7 12.95,7H9.76C9.44,7 9.25,7.24 9.25,7.47C9.25,7.95 10,8.07 10.05,9.44V12.42C10.05,13.08 9.93,13.2 9.68,13.2C9,13.2 7.32,10.67 6.33,7.79C6.13,7.23 5.94,7 5.42,7H3.39C2.82,7 2.7,7.27 2.7,7.57C2.7,8.11 3.39,10.77 5.9,14.29C7.57,16.7 9.93,18 12.08,18C13.37,18 13.53,17.71 13.53,17.21V15.39C13.53,14.82 13.65,14.7 14.06,14.7C14.36,14.7 14.87,14.85 16.07,16C17.45,17.38 17.67,18 18.45,18H20.47C21.05,18 21.34,17.71 21.18,17.14C21,16.57 20.34,15.74 19.47,14.76C19,14.21 18.29,13.61 18.07,13.3C17.77,12.92 17.86,12.75 18.07,12.4C18.07,12.4 20.54,8.93 20.8,7.74Z"></path>
+                        </svg>
+                     </a>
+                     <?php endif; ?>
+                     <?php if($wo['config']['instagramLogin'] != 0): ?>
+                     <a href="<?php echo $wo['instagramLoginUrl']?>" class="btn btn-instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                           <path fill="currentColor" d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z"></path>
+                        </svg>
+                     </a>
+                     <?php endif; ?>
+                  </div>
+                  <?php if($wo['config']['googleLogin'] != 0): ?>
+                  <br>
+                  <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
+                  <?php endif; ?>
+                  <?php } ?>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- End Modal -->
+<!-- Contact Modal -->
+<div class="modal" id="myModalContact">
+   <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+         <!-- Modal Header -->
+         <div class="modal-header">
+            <h4 class="modal-title">Contact Information</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+         </div>
+         <form action="" method="POST" id="contactForm">
+            <!-- Modal body -->
+            <div class="modal-body">
+               <div class="row">
+                  <div class="col-md-6">
+                     <div class="form-group">
+                        <label> First Name <sup class="text-danger">*</sup></label>
+                        <input type="text" name="first_name" id="first_name" class="form-control" placeholder="First Name">
+                     </div>
+                  </div>
+                  <div class="col-md-6">
+                     <div class="form-group">
+                        <label> Last Name <sup class="text-danger">*</sup></label>
+                        <input type="text" name="last_name" id="last_name" class="form-control" placeholder="Last Name">
+                     </div>
+                  </div>
+                  <div class="col-md-12">
+                     <div class="form-group">
+                        <label> Subject <sup class="text-danger">*</sup></label>
+                        <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject">
+                     </div>
+                  </div>
+                  <div class="col-md-6">
+                     <div class="form-group">
+                        <label> Email <sup class="text-danger">*</sup></label>
+                        <input type="email" name="email" id="email" class="form-control" placeholder="Email">
+                     </div>
+                  </div>
+                  <div class="col-md-6">
+                     <div class="form-group">
+                        <label> Phone <sup class="text-danger">*</sup></label>
+                        <input type="text" name="phone" id="phone" class="form-control" placeholder="Phone">
+                     </div>
+                  </div>
+                  <div class="col-md-12">
+                     <div class="form-group">
+                        <label> Message <sup class="text-danger">*</sup></label>
+                        <textarea name="message" id="message" class="form-control" cols="12" rows="3" placeholder="Subject"></textarea>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Modal footer -->
+            <div class="modal-footer">
+               <button type="submit" nsme="send" id="send" class="btn btn-primary" style="background: linear-gradient(
+                  120deg
+                  , rgba(236,17,106,0.9700922605370274) 20%, rgba(252,91,18,0.9700922605370274) 60%) !important;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">Send Message</button>  
+               <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+         </form>
+      </div>
+   </div>
+</div>
+<!-- End Contact Modal -->
+
+
+
+<!-- Concept Modal -->
+<div class="modal" id="myModalConcept">
+   <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+         <!-- Modal Header -->
+         <div class="modal-header">
+            <h4 class="modal-title">Le concept Iyoo</h4>
+            <button type="button" class="close" data-dismiss="modal" style="margin-top:-20px;">&times;</button>
+         </div>
+         
+            <!-- Modal body -->
+            <div class="modal-body">
+               <div class="row">
+                  <div class="col-md-12">
+                         <p>
+                         IYOO répond à ce problème en proposant une plateforme où une seule place de marché référence les produits de différentes marques et différents magasins en ligne et permet :
+                         </p>
+                  </div>
+                  <div class="col-md-12">
+                      <h3>Pour le consommateur </h3>
+                      <ul style="line-height:25px;">
+                          <li>
+                            	<i class="fa fa-dot-circle-o" aria-hidden="true"></i> Construire un réseau d'amis proches (famille, amis et connaissances) sur lesquels s'appuyer lors d'un achat. 
+                            </li>
+                            <li>
+                            	<i class="fa fa-dot-circle-o" aria-hidden="true"></i> Déterminer les centres d'intérêts en fonction des habitudes de consommation et disposer d'un magasin entièrement personnalisé avec des produits proposés correspondant aux centres d'intérêts. 
+                            </li>
+                            <li>
+                            	<i class="fa fa-dot-circle-o" aria-hidden="true"></i> Solliciter instantanément les opinions et les recommandations d'amis et de famille en cas d'hésitation sur un produit.
+                            </li>
+                            <li>
+                            	<i class="fa fa-dot-circle-o" aria-hidden="true"></i> Proposer à leurs amis et famille de rassembler leurs besoins d'achat pour faire un achat groupé et ainsi obtenir une remise supplémentaire sur les produits concernés.
+                            </li>
+                      </ul>
+                      
+                       <h3>Pour le vendeur </h3>
+                      <ul style="line-height:25px;">
+                          <li>
+                            	<i class="fa fa-dot-circle-o" aria-hidden="true"></i> Mettre leur offre à la disposition d'une communauté d'acheteurs auto-ciblés.
+                            </li>
+                            <li>
+                            	<i class="fa fa-dot-circle-o" aria-hidden="true"></i> Attirez de nouveaux clients et générez des ventes supplémentaires grâce au trafic de référence (partage d'avis).
+                            </li>
+                            <li>
+                            	<i class="fa fa-dot-circle-o" aria-hidden="true"></i> Réduisez le taux de paniers enregistrés et de retours clients grâce à des avis et des recommandations.  
+                            </li>
+                            <li>
+                            	<i class="fa fa-dot-circle-o" aria-hidden="true"></i> Gagnez en visibilité (pour les entreprises locales qui n'ont pas forcément de boutique en ligne).
+                            </li>
+                      </ul>
+                        <p>La particularité de la plateforme IYOO est de combiner les valeurs ajoutées de deux systèmes : </p>
+                      <ul style="line-height:23px;">
+                          <li>
+                            	<i class="fa fa-dot-circle-o" aria-hidden="true"></i> Celle des réseaux sociaux dans le sens où elle est fondée sur l’interaction sociale entre le consommateur et ses proches.
+                            </li>
+                            <li>
+                            	<i class="fa fa-dot-circle-o" aria-hidden="true"></i> Celle des solutions de marketplace proposant des recommandations d’achats ciblées pour chaque consommateur en fonction de ses propres préférences et proposant des transactions sécurisées aussi bien pour le consommateur que pour le vendeur.
+                            </li>
+                      </ul>
+                  </div>
+               </div>
+            </div>
+            <!-- Modal footer -->
+            <div class="modal-footer">
+               <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+            </div>
+         
+      </div>
+   </div>
+</div>
+<!-- End concept Modal -->
+
+
+<div class="container"><?php echo Wo_LoadPage('footer/welcome');?></div>
+<script>
+   var working = false;
+   var $this = $('#login');
+   var $state = $this.find('.errors');
+   <?php if($wo['config']['googleLogin'] != 0): ?>
+   function signOut() {
+   	var auth2 = gapi.auth2.getAuthInstance();
+   	auth2.signOut().then(function () {
+   	  console.log('User signed out.');
+   	});
+   }
+   
+   function onSignIn(googleUser) {
+       // The ID token you need to pass to your backend:
+       var id_token = googleUser.getAuthResponse().id_token;
+       $.post(Wo_Ajax_Requests_File() + '?f=google_login', {id_token: id_token}, function(data, textStatus, xhr) {
+       	if (data.status == 200) {
+       		signOut();
+       		$state.addClass('success');
+   	        $state.html('<?php echo $wo['lang']['welcome_back'] ?>');
+   			$this.find('.loading').addClass('hidden');
+   	        setTimeout(function () {
+   	        	window.location.href = data.location;
+   	        }, 1000);
+       	}
+       	else{
+   			$this.find('button').attr("disabled", false);
+   			$this.find('.loading').addClass('hidden');
+   	        $state.html(data.message);
+       	}
+       });
+   }
+   <?php endif; ?>
+   $(function() {
+     $('#login').ajaxForm({
+       url: Wo_Ajax_Requests_File() + '?f=login',
+       beforeSend: function() {
+   		working = true;
+   		$this.find('button').attr("disabled", true);
+   		$this.find('.loading').removeClass('hidden');
+       },
+       success: function(data) {
+         if (data.status == 200 || data.status == 600) {
+         	$state.addClass('success');
+           $state.html('<?php echo $wo['lang']['welcome_back'] ?>');
+   		$this.find('.loading').addClass('hidden');
+           setTimeout(function () {
+           	window.location.href = data.location;
+           }, 1000);
+         } else {
+           var errors = data.errors.join("<br>");
+   		$this.find('button').attr("disabled", false);
+   		$this.find('.loading').addClass('hidden');
+           $state.html(errors);
+         } 
+         working = false;
+       }
+     });
+   });
+</script>
